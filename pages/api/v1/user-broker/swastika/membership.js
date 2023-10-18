@@ -7,7 +7,7 @@ const ELIGIBLE_SAMPLE =  {
 	"brokingRegistrationPlans": [
 	  {
 		"id": "12345",
-		"name": "FirstPlan",
+		"name": "Default",
 		"registrationPlan": {
 			fees: 300,
 			registrationRequired: true
