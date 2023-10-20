@@ -9,7 +9,7 @@ const ELIGIBLE_SAMPLE =  {
 		"id": "12345",
 		"name": "Default",
 		"registrationPlan": {
-			fees: 300,
+			price: 300,
 			registrationRequired: true
 		},
 		"brokingPlan": {
@@ -47,7 +47,7 @@ const NOT_ELIGIBLE_SAMPLE =  {
 		"id": "12345",
 		"name": "Default",
 		"registrationPlan": {
-			fees: 300,
+			price: 300,
 			registrationRequired: true
 		},
 		"brokingPlan": {
@@ -84,7 +84,7 @@ const JOINED_WAITLIST_SAMPLE =  {
 		"id": "12345",
 		"name": "Default",
 		"registrationPlan": {
-			fees: 300,
+			price: 300,
 			registrationRequired: true
 		},
 		"brokingPlan": {
@@ -121,7 +121,7 @@ const PAYMENT_INIT =  {
 		"id": "12345",
 		"name": "Default",
 		"registrationPlan": {
-			fees: 300,
+			price: 300,
 			registrationRequired: true
 		},
 		"brokingPlan": {
@@ -158,7 +158,7 @@ const PAYMENT_FAILED =  {
 		"id": "12345",
 		"name": "Default",
 		"registrationPlan": {
-			fees: 300,
+			price: 300,
 			registrationRequired: true
 		},
 		"brokingPlan": {
@@ -195,7 +195,7 @@ const PAYMENT_SUCCESS =  {
 		"id": "12345",
 		"name": "Default",
 		"registrationPlan": {
-			fees: 300,
+			price: 300,
 			registrationRequired: true
 		},
 		"brokingPlan": {
