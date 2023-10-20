@@ -14,15 +14,15 @@ const ELIGIBLE_SAMPLE =  {
 		},
 		"brokingPlan": {
 		  "intraday": {
-			"price": 20,
+			"price": 10,
 	
 		  },
 		  "fno": {
-			"price": 20,
+			"price": 10,
 
 		  },
 		  "delivery": {
-			"price": 200,
+			"price": 10,
 		  }
 		},
 		"meta": {
@@ -52,15 +52,15 @@ const NOT_ELIGIBLE_SAMPLE =  {
 		},
 		"brokingPlan": {
 		  "intraday": {
-			"price": 20,
+			"price": 10,
 	
 		  },
 		  "fno": {
-			"price": 20,
+			"price": 10,
 
 		  },
 		  "delivery": {
-			"price": 200,
+			"price": 10,
 		  }
 		},
 		"meta": {
@@ -89,15 +89,15 @@ const JOINED_WAITLIST_SAMPLE =  {
 		},
 		"brokingPlan": {
 		  "intraday": {
-			"price": 20,
+			"price": 10,
 	
 		  },
 		  "fno": {
-			"price": 20,
+			"price": 10,
 
 		  },
 		  "delivery": {
-			"price": 200,
+			"price": 10,
 		  }
 		},
 		"meta": {
@@ -126,15 +126,15 @@ const PAYMENT_INIT =  {
 		},
 		"brokingPlan": {
 		  "intraday": {
-			"price": 20,
+			"price": 10,
 	
 		  },
 		  "fno": {
-			"price": 20,
+			"price": 10,
 
 		  },
 		  "delivery": {
-			"price": 200,
+			"price": 10,
 		  }
 		},
 		"meta": {
@@ -163,15 +163,15 @@ const PAYMENT_FAILED =  {
 		},
 		"brokingPlan": {
 		  "intraday": {
-			"price": 20,
+			"price": 10,
 	
 		  },
 		  "fno": {
-			"price": 20,
+			"price": 10,
 
 		  },
 		  "delivery": {
-			"price": 200,
+			"price": 10,
 		  }
 		},
 		"meta": {
@@ -200,15 +200,15 @@ const PAYMENT_SUCCESS =  {
 		},
 		"brokingPlan": {
 		  "intraday": {
-			"price": 20,
+			"price": 10,
 	
 		  },
 		  "fno": {
-			"price": 20,
+			"price": 10,
 
 		  },
 		  "delivery": {
-			"price": 200,
+			"price": 10,
 		  }
 		},
 		"meta": {
