@@ -4,7 +4,7 @@ const ELIGIBLE_SAMPLE =  {
 	  "name": "Swastika",
 	  "logoUrl": "https://example.com/logo.png"
 	},
-	"brokingRegistrationPlans": [
+	"unifiedPlans": [
 	  {
 		"id": "12345",
 		"name": "Default",
@@ -38,40 +38,7 @@ const ELIGIBLE_SAMPLE =  {
 
 
 const NOT_ELIGIBLE_SAMPLE =  {
-	"brokerDetails": {
-	  "name": "Swastika",
-	  "logoUrl": "https://example.com/logo.png"
-	},
-	"brokingRegistrationPlans": [
-	  {
-		"id": "12345",
-		"name": "Default",
-		"registrationPlan": {
-			price: 300,
-			registrationRequired: true
-		},
-		"brokingPlan": {
-		  "intraday": {
-			"price": 10,
-	
-		  },
-		  "fno": {
-			"price": 10,
 
-		  },
-		  "delivery": {
-			"price": 10,
-		  }
-		},
-		"meta": {
-		  "mintCoinMultiplier": 5
-		}
-	  },
-	],
-	"currentUserState": {
-	  "status": "NOT_ELIGIBLE",
-	  "statusData": {}
-	}
 }
 
 const JOINED_WAITLIST_SAMPLE =  {
@@ -79,7 +46,7 @@ const JOINED_WAITLIST_SAMPLE =  {
 	  "name": "Swastika",
 	  "logoUrl": "https://example.com/logo.png"
 	},
-	"brokingRegistrationPlans": [
+	"unifiedPlans": [
 	  {
 		"id": "12345",
 		"name": "Default",
@@ -116,7 +83,7 @@ const PAYMENT_INIT =  {
 	  "name": "Swastika",
 	  "logoUrl": "https://example.com/logo.png"
 	},
-	"brokingRegistrationPlans": [
+	"unifiedPlans": [
 	  {
 		"id": "12345",
 		"name": "Default",
@@ -153,7 +120,7 @@ const PAYMENT_FAILED =  {
 	  "name": "Swastika",
 	  "logoUrl": "https://example.com/logo.png"
 	},
-	"brokingRegistrationPlans": [
+	"unifiedPlans": [
 	  {
 		"id": "12345",
 		"name": "Default",
@@ -190,7 +157,7 @@ const PAYMENT_SUCCESS =  {
 	  "name": "Swastika",
 	  "logoUrl": "https://example.com/logo.png"
 	},
-	"brokingRegistrationPlans": [
+	"unifiedPlans": [
 	  {
 		"id": "12345",
 		"name": "Default",
